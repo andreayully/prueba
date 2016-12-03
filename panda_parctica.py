@@ -1,6 +1,7 @@
 import pandas  as pd
 from scipy.spatial.distance import cosine
 
+
 # read the data
 
 data = pd.read_csv('data.csv')
