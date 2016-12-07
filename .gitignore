@@ -90,3 +90,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Linux
+.*
+!.gitignore
+!.htaccess
+*~
