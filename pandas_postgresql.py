@@ -1,5 +1,5 @@
 import psycopg2
-import pandas.io.sql as psql
+#import pandas.io.sql as psql
 import numpy as np
 
 # coneccion = pg.connect("dbname=pandas_db user=yully")
