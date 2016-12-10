@@ -1,5 +1,5 @@
 import psycopg2
-#import pandas.io.sql as psql
+import pandas.io.sql as psql
 import numpy as np
 
 # coneccion = pg.connect("dbname=pandas_db user=yully")
@@ -9,7 +9,7 @@ import numpy as np
 
 con = psycopg2.connect(dbname='pandas_db', host='localhost', user='yully', password='yully', port='5432')
 cur = con.cursor()
-cur.execute("SELECT * FROM 'est_nota';")
+cur.execute("SELECT * FROM est_nota;")
 cur.fetchall()
 cur.close()
 con.close()
